@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   www_redis_normal:
-    image: redis:alpine
+    image: redis:7.2.0-alpine
     container_name: www_redis_normal_01
     restart: always
     networks:
